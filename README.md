@@ -1,4 +1,4 @@
-**Assignment Overview:**
+** Overview:**
 
 *Technical Domain:* Text Analysis + Customer Analytics
 
