@@ -1,11 +1,10 @@
-** Overview:**
+##** Overview:**
 
 *Technical Domain:* Text Analysis + Customer Analytics
 
 *Data Source:* Tablet review data (product_reviews.csv)
 
-**Part 1: Text Analysis**
-
+### **Part 1: Text Analysis**
 1. **Sentiment Analysis:**
    - Applied Natural Language Processing techniques to calculate sentiment polarities (positive, neutral, negative) for Kindle attributes: screen, customer service, weight, price.
    - Ratio of positive to negative reviews determined for each attribute using pandas' value_counts.
@@ -15,8 +14,7 @@
    - Generated models for 3, 5, and 7 topics, naming topics based on top ten words.
    - Assessed topic overlap and calculated perplexity for each model.
 
-**Part 2: Customer Analytics**
-
+### **Part 2: Customer Analytics**
 1. **Customer Lifetime Value (CLV) Analysis:**
    - Calculated baseline CLV for Parimus Financial Services (PFS) customers.
    - Evaluated two strategic options: increasing retention rate and changing customer mix.
@@ -27,16 +25,16 @@
    - Identified coefficients with meaningful differences across equations.
    - Calculated and interpreted own and cross-price elasticities based on a multinomial model.
 
-**Key Technical Learnings:**
+### **Key Technical Learnings:**
 - Text preprocessing for sentiment analysis: cleaning, removing stop words, and stemming.
 - Application of Latent Dirichlet Allocation for topic modeling.
 - Customer Lifetime Value calculations and strategic decision-making.
 - Utility equation formulation for choice modeling.
 - Elasticity calculations and interpretation in a choice model context.
 
-**Technical Tools:**
+### **Technical Tools:**
 - Python for sentiment analysis and topic modeling (using pandas, nltk, sklearn).
 - Analytics and statistical methods for CLV and choice modeling.
-- Documentation using LaTeX or similar tools for submission.
+- Documentation using LaTeX.
 
 **Note:** Results may vary based on text preprocessing and modeling parameters chosen.
